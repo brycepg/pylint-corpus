@@ -1,0 +1,21 @@
+*.pyc
+*.swp
+*.swo
+*.orig
+*.egg-info/
+
+# setuptools
+dist/
+
+# development files
+/.env/
+/var/
+/.tox/
+/script/
+.idea/
+/.coverage
+/docs/en/build/
+/docs/ru/_build/
+/test_settings_local.py
+/test.py
+/.python-version

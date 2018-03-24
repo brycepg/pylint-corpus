@@ -1,0 +1,23 @@
+bumpversion
+coverage
+coveralls
+cssselect
+feedparser
+flake8
+selenium
+test_server>=0.0.27b1
+tornado
+mock
+runscript
+pyprof2calltree
+urllib3
+selection
+pyquery;platform_system!="Windows"
+lxml;platform_system!="Windows"
+pycurl;platform_system!="Windows"
+# to fix appveyor
+item;platform_system!="Windows"
+pylint
+psutil
+tox
+pysocks

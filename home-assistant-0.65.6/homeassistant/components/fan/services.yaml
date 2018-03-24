@@ -1,0 +1,127 @@
+# Describes the format for available fan services
+
+set_speed:
+  description: Sets fan speed.
+  fields:
+    entity_id:
+      description: Name(s) of the entities to set
+      example: 'fan.living_room'
+    speed:
+      description: Speed setting
+      example: 'low'
+
+turn_on:
+  description: Turns fan on.
+  fields:
+    entity_id:
+      description: Names(s) of the entities to turn on
+      example: 'fan.living_room'
+    speed:
+      description: Speed setting
+      example: 'high'
+
+turn_off:
+  description: Turns fan off.
+  fields:
+    entity_id:
+      description: Names(s) of the entities to turn off
+      example: 'fan.living_room'
+
+oscillate:
+  description: Oscillates the fan.
+  fields:
+    entity_id:
+      description: Name(s) of the entities to oscillate
+      example: 'fan.desk_fan'
+    oscillating:
+      description: Flag to turn on/off oscillation
+      example: True
+
+toggle:
+  description: Toggle the fan on/off.
+  fields:
+    entity_id:
+      description: Name(s) of the entities to toggle
+      exampl: 'fan.living_room'
+
+set_direction:
+  description: Set the fan rotation.
+  fields:
+    entity_id:
+      description: Name(s) of the entities to toggle
+      example: 'fan.living_room'
+    direction:
+      description: The direction to rotate
+      example: 'left'
+
+dyson_set_night_mode:
+  description: Set the fan in night mode.
+  fields:
+    entity_id:
+      description: Name(s) of the entities to enable/disable night mode
+      example: 'fan.living_room'
+    night_mode:
+      description: Night mode status
+      example: true
+
+xiaomi_miio_set_buzzer_on:
+  description: Turn the buzzer on.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+
+xiaomi_miio_set_buzzer_off:
+  description: Turn the buzzer off.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+
+xiaomi_miio_set_led_on:
+  description: Turn the led on.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+
+xiaomi_miio_set_led_off:
+  description: Turn the led off.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+
+xiaomi_miio_set_child_lock_on:
+  description: Turn the child lock on.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+
+xiaomi_miio_set_child_lock_off:
+  description: Turn the child lock off.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+
+xiaomi_miio_set_favorite_level:
+  description: Set the favorite level.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+    level:
+      description: Level, between 0 and 16.
+      example: 1
+
+xiaomi_miio_set_led_brightness:
+  description: Set the led brightness.
+  fields:
+    entity_id:
+      description: Name of the air purifier entity.
+      example: 'fan.xiaomi_air_purifier'
+    brightness:
+      description: Brightness (0 = Bright, 1 = Dim, 2 = Off)
+      example: 1

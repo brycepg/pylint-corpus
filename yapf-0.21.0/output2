@@ -1,0 +1,25 @@
+************* Module yapf
+E:236, 0: Bad option value 'g-import-not-at-top' (bad-option-value)
+E:237, 0: Bad option value 'g-import-not-at-top' (bad-option-value)
+************* Module yapf.yapflib.comment_splicer
+E:234,10: Instance of 'Symbols' has no 'simple_stmt' member (no-member)
+************* Module yapf.yapflib.py3compat
+E: 92, 0: Bad option value 'g-import-not-at-top' (bad-option-value)
+E: 48, 2: Unable to import '__builtin__' (import-error)
+E: 49, 2: Unable to import 'cStringIO' (import-error)
+E: 62,10: Undefined variable 'xrange' (undefined-variable)
+E: 64, 2: No name 'ifilter' in module 'itertools' (no-name-in-module)
+E: 67, 2: Unable to import 'ConfigParser' (import-error)
+E: 92, 4: Unable to import 'msvcrt' (import-error)
+E: 94,42: Module 'os' has no 'O_BINARY' member (no-member)
+************* Module yapf.yapflib.yapf_api
+E:155, 0: Bad option value 'g-explicit-bool-comparison' (bad-option-value)
+E:130,10: No value for argument 'type' in constructor call (no-value-for-parameter)
+E:130,10: No value for argument 'value' in constructor call (no-value-for-parameter)
+E:130,10: No value for argument 'context' in constructor call (no-value-for-parameter)
+E:130,45: Instance of 'ParseError' has no 'message' member (no-member)
+************* Module yapf.yapflib.pytree_utils
+E:133,23: Instance of 'Symbols' has no 'file_input' member (no-member)
+************* Module yapf.yapflib.subtype_assigner
+E:394,27: Instance of 'Symbols' has no 'atom' member (no-member)
+E:426,27: Instance of 'Symbols' has no 'atom' member (no-member)

@@ -1,0 +1,27 @@
+#!/bin/sh
+# Execute lint to spot code mistakes.
+
+cd "$(dirname "$0")/.."
+
+if [ "$1" = "--all" ]; then
+  tox -e lint
+else
+  export files="`git diff upstream/dev... --name-only | grep -e '\.py$'`"
+  echo "================================================="
+  echo "FILES CHANGED (git diff upstream/dev... --name-only)"
+  echo "================================================="
+  if [ -z "$files" ] ; then
+    echo "No python file changed"
+    exit
+  fi
+  printf "%s\n" $files
+  echo "================"
+  echo "LINT with flake8"
+  echo "================"
+  flake8 --doctests $files
+  echo "================"
+  echo "LINT with pylint"
+  echo "================"
+  pylint $files
+  echo
+fi
