@@ -28,7 +28,7 @@ HAP-python==1.1.7
 PyISY==1.1.0
 
 # homeassistant.components.notify.html5
-PyJWT==1.6.0
+PyJWT==2.4.0
 
 # homeassistant.components.sensor.mvglive
 PyMVGLive==1.1.4

@@ -22,7 +22,7 @@ asynctest>=0.11.1
 HAP-python==1.1.7
 
 # homeassistant.components.notify.html5
-PyJWT==1.6.0
+PyJWT==2.4.0
 
 # homeassistant.components.media_player.sonos
 SoCo==0.14
